@@ -182,13 +182,16 @@
     <Content Include="src\styles\styles.min.css">
       <DependentUpon>styles.css</DependentUpon>
     </Content>
+    <Content Include="src\tests\App.test.js" />
+    <Content Include="src\tests\GridPager.test.js" />
+    <Content Include="src\tests\Table.test.js" />
+    <Content Include="src\tests\TablePage.test.js" />
     <Content Include="src\tests\TableRow.test.js" />
     <Content Include="src\components\table\Table.js" />
     <Content Include="src\components\table\TablePage.js" />
     <Content Include="src\components\table\TableRow.js" />
     <Content Include="src\reducers\employeeReducer.js" />
     <Content Include="src\components\App.js" />
-    <Content Include="src\components\table\EmployeeGridTable.js" />
     <Content Include="src\components\table\SearchData.js" />
     <Content Include="src\reducers\initialState.js" />
     <Content Include="src\routes.js" />
@@ -198,7 +201,6 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
-    <Content Include="src\components\table\EmpoyeeGridRow.js" />
     <Content Include="src\components\table\GridPager.js" />
     <Content Include="src\index.js" />
     <Content Include="src\selectors\selectors.js" />

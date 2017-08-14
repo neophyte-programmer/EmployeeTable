@@ -52,7 +52,7 @@ class TablePage extends React.Component {
   }
 
   toLastPage() {
-    this.setState({ currentPage: this.state.totalPages })
+    this.setState({ currentPage: this.state.totalPages });
   }
    
   populateData() {

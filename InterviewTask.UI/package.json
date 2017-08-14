@@ -69,7 +69,8 @@
     "open:src": "babel-node tools/srcServer.js",
     "lint:watch": "npm run lint -- --watch",
     "build": "webpack --config webpack.config.dev.js",
-    "test": "mocha src/test.js",
+    "test": "mocha --reporter spec tools/testSetup.js \"src/**/*.test.js\"",
+   
     "test:watch": "npm run test -- --watch"
   },
   "-vs-binding":{"AfterBuild":["open:src"]}

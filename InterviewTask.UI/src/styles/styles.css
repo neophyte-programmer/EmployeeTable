@@ -2171,13 +2171,13 @@ body .box {
   width: 300px;
   height: 50px;
 }
-body .box .container-1 {
+body .box .search-container {
   width: 300px;
   vertical-align: middle;
   white-space: nowrap;
   position: relative;
 }
-body .box .container-1 input#search {
+body .box .search-container input#search {
   width: 300px;
   height: 50px;
   background: white;
@@ -2190,7 +2190,7 @@ body .box .container-1 input#search {
   -moz-border-radius: 15px;
   border-radius: 15px;
 }
-body .box .container-1 .icon {
+body .box .search-container .icon {
   position: absolute;
   top: 50%;
   margin-left: 17px;

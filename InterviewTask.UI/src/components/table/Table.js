@@ -4,7 +4,7 @@ import TableRow from "./TableRow";
 const Table = ({ employees, sortChanged, sortOrder, sortColumnName }) => {
   let rows = [];
   let tableHeaders = [];
-  let tableHeaderTitles = ['First Name', 'Last Name', 'Title', 'Products Sold', 'Rrefers To'];
+  let tableHeaderTitles = ['First Name', 'Last Name', 'Title', 'Products Sold', 'Refers To'];
 
   if (employees.length > 0) {
     employees.forEach(function(employee) {

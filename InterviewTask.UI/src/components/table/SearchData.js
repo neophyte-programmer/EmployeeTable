@@ -3,7 +3,7 @@
 const SearchData = ({ changeHandler }) => {
   return (
     <div className="box">
-       <div className="container-1">
+      <div className="search-container">
            <span className="icon"><i className="fa fa-search"></i></span>
            <input type="search" id="search" placeholder="Search..." onChange={changeHandler} />
        </div>
