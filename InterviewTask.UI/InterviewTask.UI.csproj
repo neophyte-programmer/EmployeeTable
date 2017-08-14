@@ -184,8 +184,8 @@
     </Content>
     <Content Include="src\tests\App.test.js" />
     <Content Include="src\tests\GridPager.test.js" />
+    <Content Include="src\tests\selectors.test.js" />
     <Content Include="src\tests\Table.test.js" />
-    <Content Include="src\tests\TablePage.test.js" />
     <Content Include="src\tests\TableRow.test.js" />
     <Content Include="src\components\table\Table.js" />
     <Content Include="src\components\table\TablePage.js" />
@@ -195,6 +195,7 @@
     <Content Include="src\components\table\SearchData.js" />
     <Content Include="src\reducers\initialState.js" />
     <Content Include="src\routes.js" />
+    <Content Include="src\tests\employeeActions.test.js" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -204,7 +205,6 @@
     <Content Include="src\components\table\GridPager.js" />
     <Content Include="src\index.js" />
     <Content Include="src\selectors\selectors.js" />
-    <Content Include="src\test.js" />
     <Content Include="src\store\configureStore.js" />
     <Content Include="tools\srcServer.js" />
     <Content Include="tools\startMessage.js" />
